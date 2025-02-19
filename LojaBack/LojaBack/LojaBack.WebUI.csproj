@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LojaBack.Application\LojaBack.Application.csproj" />
+    <ProjectReference Include="..\LojaBack.Infra.Data\LojaBack.Infra.Data.csproj" />
+    <ProjectReference Include="..\LojaBack.Infra.Ioc\LojaBack.Infra.Ioc.csproj" />
+  </ItemGroup>
+
+</Project>
